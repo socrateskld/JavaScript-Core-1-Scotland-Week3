@@ -1,10 +1,18 @@
 
 let ageOfReshma = 25;
-
+let myAge = 26;
+let message; 
 // Write an "if/else" statement below to print
 // "Reshma is the same age as me" if Reshma is your age
 // "Reshma is not my age" if Reshma is older or younger than you
-
+if(ageOfReshma === myAge){
+    message = "Reshma is the same age as me";
+   
+} else {
+    message =  "Reshma is not my age";
+ 
+}
+console.log(message)
 
 
 

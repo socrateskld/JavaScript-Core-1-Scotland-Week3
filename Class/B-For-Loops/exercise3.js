@@ -11,3 +11,7 @@ for(let i = 0; i < namesList.length; i++){
 
 // Then, write a "for" loop to say hello to each trainee
 
+let namesRoom = ["Sundar", "Reshma", "Shantanu", "Arvind"];
+for (let j =0; j<namesRoom.length; j++) {
+    console.log("Hello " + namesRoom[j])
+}
